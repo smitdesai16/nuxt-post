@@ -1,10 +1,10 @@
-const querystring = require('querystring')
+import querystring from 'querystring'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function(req, res, next) {
+export default function(req: any, res: any, next: any) {
 	let body = ''
 
-	req.on('data', (data) => {
+	req.on('data', (data: any) => {
 		body += data
 	})
 
