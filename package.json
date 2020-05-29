@@ -5,10 +5,10 @@
   "author": "Smit Desai",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts --port 3333",
+    "dev": "nuxt-ts --port 3334",
     "build": "nuxt-ts build",
     "generate": "nuxt-ts generate",
-    "start": "nuxt-ts start --port 3333",
+    "start": "nuxt-ts start --port 3335",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "test": "jest",
     "analyze": "nuxt-ts build --analyze"

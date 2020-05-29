@@ -106,5 +106,8 @@ export default {
 	},
 	gtm: {
 		id: 'GTM-M4VZWL3'
-	}
+	},
+	serverMiddleware: [
+		{ path: '/post', handler: '~/server-middleware/post-request-handler.js' }
+	]
 }
